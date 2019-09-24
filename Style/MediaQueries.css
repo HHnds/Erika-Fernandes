@@ -1,0 +1,873 @@
+/* Desktop Layout Sizes (Can range from 960-1140 depending on your layout.) */
+@media only screen and (min-width: 1025px) and (max-width: 1284px) {
+  /* ------------------------ Index -----------------------------@*/
+  /* Learn with us (picture)*/
+
+  #about .container img {
+    width: 100rem;
+    height: 20rem;
+  }
+
+  #about .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* Courses intro */
+
+  /* Icons */
+  #icons .icon {
+    padding: 0;
+    width: 20rem;
+  }
+
+  #icons .icon h2 {
+    padding: 0;
+  }
+
+  #icons .icon img {
+    padding-top: 1rem;
+  }
+
+  /* Footer */
+  footer {
+    background: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    padding: 0 5rem 0rem 5rem;
+    margin: none;
+  }
+
+  footer .line1 .first {
+    display: none;
+  }
+
+  /* ---------------------------About Page ------------------- */
+  #learnWithUs .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #learnWithUs .container img {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+  }
+
+  #qualifications {
+    text-align: center;
+  }
+
+  /* -------------------------Courses Page -------------------- */
+
+  #list .container {
+    grid-template-columns: auto auto;
+    padding: 0;
+  }
+
+  #list .item {
+    margin: 1rem;
+  }
+  /* ----------------------Types Of Courses --------------- */
+
+  #types-courses .container {
+    width: 100%;
+  }
+
+  /* ---------------------- Course template ------------------ */
+  #course-information {
+    margin: 0 1rem;
+    justify-content: center;
+  }
+
+  #course-information #main-info {
+    width: 22rem;
+  }
+
+  /* ------------------Contact Page --------------------- */
+
+  #contact-form {
+    height: 52rem;
+  }
+}
+
+/* Tablet (Landscape) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* -------------------------- Index ------------------- */
+
+  #courses-index .items .item {
+    height: 30rem;
+  }
+  #courses-index .click {
+    margin-top: 5rem;
+  }
+
+  #icons .icon {
+    padding: 0;
+    width: 20rem;
+  }
+
+  footer {
+    height: 23rem;
+  }
+
+  /* ----------------------------- about -------------------- */
+  #learnWithUs .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #students .container img {
+    margin-top: 3rem;
+  }
+
+  #qualifications {
+    text-align: center;
+  }
+  /* ---------------------------- Courses ------------------- */
+  #courseHeader .main-content {
+    padding: 1rem;
+  }
+
+  #list .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+  }
+
+  #list .main-content {
+    padding: 1rem;
+  }
+
+  /* ---------------------------- Courses templates ------------------ */
+  #course-information {
+    margin: 1rem;
+  }
+
+  /* ---------------------------- Footer ---------------- */
+
+  footer {
+    height: 30rem;
+  }
+
+  footer .line1 .first {
+    display: none;
+  }
+  footer .line1 .fourth {
+    width: 16rem;
+  }
+}
+
+/*  Tablets potrait */
+@media only screen and (min-width: 581px) and (max-width: 768px) {
+  /* ----------------------------Index ------------------------ */
+
+  /* Navbar */
+
+  #navbar .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Main Content */
+  #main {
+    min-width: 100%;
+  }
+
+  #main .main-content {
+    padding: 0;
+  }
+
+  #main .main-content h1 {
+    font-size: 2rem;
+    min-width: 15rem;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+    padding: 0 0 0.5rem 0;
+  }
+
+  #main .main-content h3 {
+    font-size: 1rem;
+  }
+
+  #main .main-content p {
+    display: none;
+  }
+
+  #main .main-content a {
+    align-self: center;
+    min-width: 10rem;
+  }
+
+  /* About us */
+  #about .container {
+    padding: 0 0 0 5rem;
+  }
+
+  #about .container img {
+    display: none;
+  }
+
+  #about .container .intros {
+    padding: 0;
+    min-width: 17rem;
+  }
+
+  /* Request a call */
+  #request .container h4 a {
+    font-size: 1.2rem;
+    position: relative;
+    left: 0.6rem;
+  }
+
+  /* Our Courses */
+  #courses {
+    padding: 0;
+  }
+
+  #courses-index .items {
+    flex-direction: column;
+    justify-content: center;
+    height: 60rem;
+    padding-top: 1rem;
+  }
+
+  #courses-index .items .item {
+    width: 80%;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+  }
+
+  #courses-index .items .item img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  #courses-index .click {
+    padding: 0;
+  }
+
+  /* icons */
+  #icons {
+    flex-direction: column;
+  }
+  #icons .icon {
+    width: 100%;
+  }
+
+  /* footer */
+
+  footer {
+    height: 65rem;
+  }
+
+  footer .line1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .line1 div {
+    border: none;
+  }
+
+  footer .class2 {
+    min-width: 20rem;
+  }
+
+  /* ---------------------- About Page---------------- */
+  /* Who Are We */
+
+  #learnWithUs .container {
+    position: relative;
+    right: 0.7rem;
+  }
+
+  #learnWithUs .container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  #learnWithUs .container p {
+    min-width: 14rem;
+    text-align: center;
+  }
+
+  #learnWithUs .container img {
+    display: none;
+  }
+
+  /* qualifications */
+
+  #qualifications .container .text h4 {
+    text-align: center;
+  }
+
+  #qualifications .container .text h2 {
+    text-align: center;
+  }
+
+  #qualifications .container .text p {
+    text-align: center;
+  }
+
+  #qualifications img {
+    height: 7rem;
+    width: 7rem;
+    flex-wrap: wrap;
+  }
+
+  /* Students */
+  #students h2 {
+    text-align: center;
+    padding: 0;
+  }
+
+  #students .container img {
+    border-radius: 50%;
+    width: 13rem;
+    height: 13rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+  }
+
+  #students .container .comments {
+    text-align: center;
+    padding: 0 0 2rem 0;
+  }
+
+  #students .container {
+    flex-wrap: wrap;
+  }
+
+  #students .student {
+    flex-direction: column;
+  }
+
+  /* --------------------- Courses Pages -------------------*/
+
+  #courseHeader .main-content h1 {
+    font-size: 2.3rem;
+  }
+
+  #courseHeader .main-content {
+    padding: 3rem;
+  }
+
+  #list {
+    flex-direction: column;
+    padding: 0 0.2rem;
+  }
+
+  #list .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+  }
+
+  #list .items2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #list .container .item img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  /* ------------- Courses Types ----------------- */
+
+  /* Courses */
+  #types-courses .item {
+    flex-direction: column;
+  }
+
+  #types-courses .items1 .item img {
+    width: 13rem;
+    height: 8rem;
+  }
+
+  #types-courses .items1 .item h4 {
+    font-size: 1.5;
+    min-width: 11rem;
+  }
+
+  #types-course .items1 .item li {
+    font-size: 1rem;
+  }
+
+  /* Course info text */
+
+  #course-information {
+    margin: 0;
+    flex-direction: column;
+  }
+  #course-information .side-info {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* Phone Landscape */
+@media only screen and (min-width: 321px) and (max-width: 580px) {
+  html {
+    font-size: 0.8rem;
+  }
+
+  #navbar .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Main Content */
+  #main {
+    min-width: 100%;
+  }
+
+  #main .main-content {
+    padding: 0;
+  }
+
+  #main .main-content h1 {
+    font-size: 2rem;
+    min-width: 15rem;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+    padding: 0 0 0.5rem 0;
+  }
+
+  #main .main-content h3 {
+    font-size: 1rem;
+  }
+
+  #main .main-content p {
+    display: none;
+  }
+
+  #main .main-content a {
+    align-self: center;
+    min-width: 10rem;
+  }
+
+  /* About us */
+  #about .container {
+    padding: 0 0 0 5rem;
+  }
+
+  #about .container img {
+    display: none;
+  }
+
+  #about .container .intros {
+    padding: 0;
+    min-width: 17rem;
+  }
+
+  /* Request a call */
+  #request .container h4 a {
+    font-size: 1.2rem;
+    position: relative;
+    left: 0.6rem;
+  }
+
+  /* Our Courses */
+  #courses-index p {
+    padding: 0 2rem;
+  }
+
+  #courses-index .items {
+    flex-direction: column;
+    justify-content: center;
+    height: 80rem;
+    padding-top: 1rem;
+  }
+
+  #courses-index .items .item {
+    width: 80%;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+  }
+
+  #courses-index .items .item img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  #courses-index .click {
+    padding: 0;
+  }
+
+  /* icons */
+  #icons {
+    flex-direction: column;
+  }
+  #icons .icon {
+    width: 100%;
+  }
+  #icons p {
+    padding: 0 2rem;
+  }
+
+  /* footer */
+
+  footer {
+    height: 65rem;
+    padding: 0;
+  }
+
+  footer .line1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .line1 div {
+    border: none;
+  }
+
+  footer .class2 {
+    width: 20rem;
+  }
+  /* ---------------------- About Page---------------- */
+  /* Who Are We */
+
+  #learnWithUs .container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  #learnWithUs .container p {
+    min-width: 14rem;
+    text-align: center;
+  }
+
+  #learnWithUs .container img {
+    display: none;
+  }
+
+  /* qualifications */
+
+  #qualifications .container .text h4 {
+    text-align: center;
+  }
+
+  #qualifications .container .text h2 {
+    text-align: center;
+  }
+
+  #qualifications .container .text p {
+    text-align: center;
+  }
+
+  #qualifications img {
+    height: 7rem;
+    width: 7rem;
+    flex-wrap: wrap;
+  }
+
+  /* Students */
+  #students h2 {
+    text-align: center;
+    padding: 0;
+  }
+
+  #students .container img {
+    width: 8rem;
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+  }
+
+  #students .container .comments {
+    text-align: center;
+    padding: 0 0 2rem 0;
+  }
+
+  #students .container {
+    flex-wrap: wrap;
+  }
+
+  #students .student {
+    flex-direction: column;
+  }
+
+  /* ------------------------- Courses ------------------- */
+  #courseHeader .main-content h1 {
+    font-size: 2.3rem;
+  }
+
+  #courseHeader .main-content {
+    padding: 1rem;
+  }
+
+  #list {
+    padding: 1rem;
+  }
+
+  #list .container {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+  }
+
+  #list .container .item img {
+    width: 8rem;
+    height: 8rem;
+  }
+  /* ------------------------ COurse Type --------------*/
+  #types-courses .items1 {
+    padding: 0;
+  }
+
+  #types-courses .item img {
+    width: 20rem;
+  }
+
+  #types-courses .item {
+    flex-direction: column;
+  }
+  #types-courses .items1 .item .coursediv {
+    height: 20rem;
+  }
+
+  /* ------------------------ Course Templates ---------------- */
+  #course-information {
+    margin: 0;
+    flex-direction: column;
+  }
+}
+
+/* Typical Phone (Portrait) */
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 0.5rem;
+  }
+
+  #navbar .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Main Content */
+  #main {
+    min-width: 100%;
+  }
+
+  #main .main-content {
+    padding: 0;
+  }
+
+  #main .main-content h1 {
+    font-size: 2rem;
+    min-width: 15rem;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+    padding: 0 0 0.5rem 0;
+  }
+
+  #main .main-content h3 {
+    font-size: 1rem;
+  }
+
+  #main .main-content p {
+    display: none;
+  }
+
+  #main .main-content a {
+    align-self: center;
+    min-width: 10rem;
+  }
+
+  /* About us */
+  #about .container {
+    padding: 0 0 0 5rem;
+  }
+
+  #about .container img {
+    display: none;
+  }
+
+  #about .container .intros {
+    padding: 0;
+    min-width: 17rem;
+  }
+
+  /* Request a call */
+  #request .container h4 a {
+    font-size: 1.2rem;
+    position: relative;
+    left: 0.6rem;
+  }
+
+  /* Our Courses */
+  #courses-index p {
+    padding: 0 2rem;
+  }
+
+  #courses-index .items {
+    flex-direction: column;
+    justify-content: center;
+    height: 80rem;
+    padding-top: 1rem;
+  }
+
+  #courses-index .items .item {
+    width: 80%;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+  }
+
+  #courses-index .items .item img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  #courses-index .click {
+    padding: 0;
+  }
+
+  /* icons */
+  #icons {
+    flex-direction: column;
+  }
+  #icons .icon {
+    width: 100%;
+  }
+  #icons p {
+    padding: 0 2rem;
+  }
+
+  /* footer */
+
+  footer {
+    height: 65rem;
+    padding: 0;
+  }
+
+  footer .line1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .line1 div {
+    border: none;
+  }
+
+  footer .class2 {
+    width: 20rem;
+  }
+
+  /* ------------------- ABout page ----------------- */
+  #learnWithUs .container img {
+    display: none;
+  }
+  #learnWithUs .container {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  /* qualifications */
+  #qualifications {
+    text-align: center;
+  }
+  #qualifications .container {
+    padding: 1rem;
+  }
+  #qualifications img {
+    display: none;
+  }
+
+  /* Students */
+  #students .container {
+    padding: 1rem;
+  }
+
+  #students .container img {
+    width: 8rem;
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+  }
+
+  #students .container .comments {
+    text-align: center;
+    padding: 0 0 2rem 0;
+  }
+
+  #students .student {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* --------------------------- Courses ----------- */
+  #courseHeader .main-content h1 {
+    font-size: 2.3rem;
+  }
+
+  #courseHeader .main-content {
+    padding: 2rem;
+  }
+
+  #list {
+    padding: 0.5rem;
+  }
+
+  #list .container {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+  }
+
+  #list .container .item img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  #types-courses .items1 {
+    padding: 0;
+  }
+
+  #types-courses .item {
+    flex-direction: column;
+  }
+
+  #types-courses .item img {
+    width: 20rem;
+  }
+  /* ------------------ Course Templates --------------  */
+  #course-information {
+    margin: 0;
+    flex-direction: column;
+  }
+}
